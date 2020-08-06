@@ -1,0 +1,21 @@
+{
+  "name": "npp-theme",
+  "version": "1.0.0",
+  "engines": {
+    "vscode": "^1.10.0"
+  },
+  "publisher": "mustafa0x",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mustafa0x/npp-theme.git"
+  },
+  "contributes": {
+    "themes": [
+      {
+        "label": "Notepad++ Theme",
+        "uiTheme": "vs",
+        "path": "./npp-theme.json"
+      }
+    ]
+  }
+}
